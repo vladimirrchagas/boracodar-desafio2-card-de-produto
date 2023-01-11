@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    align-items: center;
+    background-color: #D9CDF7;
+    color: black;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    width: 100vw;
+}
+
+
+.rotateIcon, .xvector {
+    align-self: flex-end;
+    display: flex;
+    margin-right: 40px;
+}
+
+.rotateIcon {
+    display: block;
+    height: 22.47px;
+    width: 33px;
+}
+
+.xvector {
+    display: none;
+    height: 16px;
+    margin-top: 5px;
+    margin-right: 45px;
+    width: 16px;
+}
+
+.couch {
+    display: block;
+}
+
+.couchRotation {
+    display: none;
+}
+
+.productImage {
+    display: flex;
+    flex-direction: column;
+    height: 222.96px;
+    width: 449px;
+}
+
+.productInfo {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-left: 13px;
+}
+
+.productCode, .productTitle, .productPrice {
+    margin-bottom: 12px;
+}
+
+.productCode {
+    color: #271A45;
+    font-family: 'Lato';
+    font-size: 10px;
+    font-weight: lighter;
+}
+
+.productTitle {
+    color: #271A45;
+    font-family: 'Crimson Pro';
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.productPrice {
+    color: #271A45;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.sendToBasket {
+    background-color: #D9CDF7;
+    border-radius: 999px;
+    color: #271A45;
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: normal;
+    height: 32px;
+    padding: 16;
+    width: 148px;
+}
+
+.sendToBasket:hover {
+    background-color: #271A45;
+    color: #D9CDF7;
+}
